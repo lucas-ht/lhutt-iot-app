@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: app-one
+  name: app
 spec:
   replicas: 1
   strategy:
@@ -11,15 +11,15 @@ spec:
       maxSurge: 100%
   selector:
     matchLabels:
-      app: app-one
+      app: app
   template:
     metadata:
       labels:
-        app: app-one
+        app: app
     spec:
       containers:
-        - name: app-one
-          image: l60039177/lhutt-iot-app1:1.0.0
+        - name: app
+          image: l60039177/lhutt-iot-app1:2.0.0
           imagePullPolicy: Always
           ports:
             - name: web
