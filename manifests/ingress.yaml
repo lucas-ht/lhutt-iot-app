@@ -5,7 +5,8 @@ metadata:
 
 spec:
   rules:
-    - http:
+    - host: dev.local
+      http:
         paths:
           - path: /
             pathType: Prefix
