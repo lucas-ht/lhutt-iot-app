@@ -10,7 +10,7 @@ templates = Jinja2Templates(directory="templates")
 
 @app.get("/")
 def index(request: Request):
-    app_name = "App 1"
+    app_name = "App One"
     app_version = "1.0.0"
 
     pod_id = os.environ.get("POD_ID", "Not available")

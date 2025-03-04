@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: l60039177/lhutt-iot-app1:1.0.0
+          image: lhutt42/lhutt-iot-app-one:1.0.0
           imagePullPolicy: Always
           ports:
             - name: web
