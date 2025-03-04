@@ -15,6 +15,6 @@ ENTRYPOINT [ "python", "main.py" ]
 
 LABEL org.opencontainers.image.title="iot-app"                                          \
       org.opencontainers.image.source="https://github.com/lucas-ht/lhutt-iot-app"       \
-      org.opencontainers.image.description="Test application for Inception of Things"   \
+      org.opencontainers.image.description="Sample application for Inception-of-Things" \
                                                                                         \
       org.opencontainers.image.authors="lucas-ht"
